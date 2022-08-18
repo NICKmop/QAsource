@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'NanumGothic';
+	font-style: normal;
+	src: url(/resouce/kp/font/NanumGothicCoding-Regular.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'CourierPrime';
+	font-style: normal;
+	src: url(/resouce/kp/font/CourierPrime-Regular.ttf) format('truetype');
+}
+
+body .telNum{
+	font-size:50px;
+	font-family: 'NanumGothic';
+	letter-spacing: -7.7px;
+	opacity: 0.7
+}
+body .telNum2{
+	font-size:50px;
+	font-family: 'NanumGothic';
+	letter-spacing: -7.7px;
+	opacity: 0.7
+}
+body .telNum3{
+	font-size:50px;
+	font-family: 'CourierPrime';
+	letter-spacing: -9.7px;
+	opacity: 0.7
+}
+body .telNum4{
+	font-size:50px;
+	font-family: 'CourierPrime';
+	letter-spacing: -9.7px;
+	opacity: 0.7			
+}
+.search {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input {
+    width: 85%;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+    font-family: fontAwesome;
+}
+.fa-search {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    margin: 0;
+}
+.fa-keyboard {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+.fa-microphone {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: blue;
+}

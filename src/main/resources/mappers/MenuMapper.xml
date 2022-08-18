@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.webix.gpl.dao.MenuMapper">
+
+	<select id="getCallLists" parameterType="com.webix.gpl.vo.callListVO" resultType="com.webix.gpl.vo.callListVO">
+    <![CDATA[ /* 콜리스트 데이터 조회 */
+	    select *
+	 
+	    from astro.callList
+	    
+	    order by id
+    ]]>
+	</select>
+	
+	<select id="getEvaluationResultVO" parameterType="com.webix.gpl.vo.evaluationResultVO" resultType="com.webix.gpl.vo.evaluationResultVO">
+    <![CDATA[ /* 평가 결과 조회*/
+	    select *
+	 
+	    from astro.evaluation_result
+	    
+	    order by id
+    ]]>
+	</select>
+</mapper>

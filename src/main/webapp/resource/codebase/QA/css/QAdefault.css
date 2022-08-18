@@ -1,0 +1,186 @@
+.QaRun #QaRunlistForm{
+	background-color: red;
+}
+/*품질평가실행*/
+.QaRunlistForm .webix_forminput{
+	height:38px;
+}
+/* 미정 */
+.QAAsettingButton{
+	width:50px !important;
+	height:300px !important;
+	margin-top: 300px !important;
+}
+
+.QAwindow {
+	height:1200px !important;
+	width:300px;
+}
+.QAcheckbox{
+	width: 90px !important;
+}
+.QAsearchButton {
+	width:90px !important;
+}
+.QAsearchButton .webix_button{
+	width:70px;
+}
+.QAsearchButton .webix_el_box {
+	width:65px !important;
+}
+.t1{
+	font-weight: bold;
+	line-height: 0.8;
+	font-size:20px;
+}
+.t2{
+	font-weight: bold;
+	line-height: 0.8;	
+	font-size:20px;
+}
+.t3{
+	font-weight: bold;
+	line-height: 0.6;	
+	font-size:18px;
+}
+.sets .sets_te{
+	height:50px;
+}
+.sets .sets_te .webix_property_label{
+	height:51px;
+	text-align: center;
+	background-color: gainsboro;
+	color:black;
+	font-weight: bold;
+	font-size:16px;
+	line-height: 3;
+	padding:0px;
+}
+.sets .sets_te .webix_property_value{
+	height:50px;
+}
+.sets .sets_te .webix_property_value .webix_toggle_button_custom{
+	height:50px;
+}
+.QaGridlist .webix_column{
+   	border: 1px solid #EDEFF0;
+}
+.QaGridlist .webix_hcolumn{
+  border: 1px solid #EDEFF0;
+  height: 80px;
+}
+
+.QaRunGrid .webix_column{
+   	border: 1px solid #EDEFF0;
+}
+.QaRunGrid .webix_hcolumn{
+  border: 1px solid #EDEFF0;
+  height: 80px;
+}
+
+.QaRunGridInfo .webix_column{
+   	border: 1px solid #EDEFF0;
+}
+.QaRunGridInfo .webix_hcolumn{
+  border: 1px solid #EDEFF0;
+  height: 80px;
+}
+
+.QaGridResultlist .webix_column{
+   	border: 1px solid #EDEFF0;
+}
+.QaGridResultlist .webix_hcolumn{
+  border: 1px solid #EDEFF0;
+  height: 80px;
+}
+.QaEvaluationRunning .webix_hcolumn{
+  border: 1px solid #EDEFF0;
+  height: 80px;
+}
+.QaEvaluationRunning .webix_ss_header{
+  height:80px !important;
+}
+.QaEvaluationRunning .webix_hcell{
+  height:80px !important;
+}
+.QaEvaluationRunning .webix_cell{
+  text-align: center;
+}
+.QaEvaluationRunning .webix_column{
+   	border: 1px solid #EDEFF0;
+}
+.QaEvaluationRunning .standard{
+	background-color: orange;
+	text-align: center;
+}
+.QaEvaluationRunning .perfectConsult{
+	background-color: blue;
+	text-align: center;
+}
+.QaEvaluationRunning .plusPoint{
+	background-color: blue;
+	text-align: center;
+}
+.QaEvaluationRunning .subPoint{
+	background-color: blue;
+	text-align: center;
+}
+.QaEvalueStandardResearchTable .webix_template{
+	text-align: center;
+}
+.app_button .button{
+	padding:0;
+	text-align: center;
+}
+#areaA, #areaB{
+	margin: 50px;
+	width:700px; height:110px;
+}
+text:hover {
+   stroke: black;
+}
+.webix_view .webix_tree .tree-test1{
+	heigth:33px;
+}
+  .comment{
+    background: #F4F5F9;
+    border-radius: 0px 25px 25px 25px;
+    padding: 5px;
+ }
+  .user{
+    font-size: 16px; 
+    display:inline-block;
+  }
+  .avatar{
+    background-color:#F4F5F9;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    font-weight:500;
+    text-align:center;
+    color:#1CA1C1;
+    display:inline-block;
+    margin:0 10px 10px 0px;
+  }
+  .webix_comments_icons{
+    text-align: center;
+    color: #1CA1C1;
+    cursor: pointer;
+    float:right;
+    font-size:24px;
+  }
+.app_button .button{
+	padding:0;
+	text-align: center;
+}
+#areaA, #areaB{
+	margin: 50px;
+	width:700px; height:110px;
+}
+text:hover {
+      stroke: black;
+  }
+   .webix_view .webix_tree .tree-test1{
+   	heigth:33px;
+  }
